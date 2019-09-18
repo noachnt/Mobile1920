@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/instructionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:fontFamily="@font/roboto"
+            android:text="@string/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/instructionBody"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/instructionBody"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/body"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/instructionTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.041" />
+
+        <TextView
+            android:id="@+id/box_one_text"
+            style="@style/white_box"
+            android:layout_width="375dp"
+            android:layout_height="154dp"
+            android:layout_marginLeft="@dimen/margin_wide"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="@dimen/margin_wide"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/box_two_text"
+            style="@style/white_box"
+            android:layout_width="101dp"
+            android:layout_height="429dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
+
+        <TextView
+            android:id="@+id/box_three_text"
+            style="@style/white_box"
+            android:layout_width="97dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_four_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toTopOf="@+id/box_two_text" />
+
+        <TextView
+            android:id="@+id/box_three_text3"
+            style="@style/white_box"
+            android:layout_width="41dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_four_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toTopOf="@+id/box_two_text"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/box_three_text4"
+            style="@style/white_box"
+            android:layout_width="41dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_four_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.903"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toTopOf="@+id/box_two_text"
+            app:layout_constraintVertical_bias="0.074" />
+
+        <TextView
+            android:id="@+id/box_three_text2"
+            style="@style/white_box"
+            android:layout_width="80dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_four_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.632"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toTopOf="@+id/box_two_text"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/box_four_text"
+            style="@style/white_box"
+            android:layout_width="97dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            android:layout_marginBottom="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_five_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_three_text" />
+
+        <TextView
+            android:id="@+id/box_four_text3"
+            style="@style/white_box"
+            android:layout_width="30dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            android:layout_marginBottom="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_five_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.382"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_three_text"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/box_four_text2"
+            style="@style/white_box"
+            android:layout_width="97dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            android:layout_marginBottom="@dimen/margin_wide"
+            app:layout_constraintBottom_toTopOf="@+id/box_five_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.863"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_three_text"
+            app:layout_constraintVertical_bias="0.81" />
+
+        <TextView
+            android:id="@+id/box_five_text"
+            style="@style/white_box"
+            android:layout_width="97dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toBottomOf="@+id/box_two_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_four_text" />
+
+        <TextView
+            android:id="@+id/box_five_text5"
+            style="@style/white_box"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toBottomOf="@+id/box_two_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_four_text"
+            app:layout_constraintVertical_bias="0.057" />
+
+        <TextView
+            android:id="@+id/box_five_text4"
+            style="@style/white_box"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toBottomOf="@+id/box_two_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.89"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_four_text"
+            app:layout_constraintVertical_bias="0.205" />
+
+        <TextView
+            android:id="@+id/box_five_text2"
+            style="@style/white_box"
+            android:layout_width="97dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintBottom_toBottomOf="@+id/box_two_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/box_two_text"
+            app:layout_constraintTop_toBottomOf="@+id/box_four_text"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

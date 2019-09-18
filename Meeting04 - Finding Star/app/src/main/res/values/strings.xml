@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Finding Star</string>
+    <string name="title">FINDING STAR</string>
+    <string name="body">Find the shining star by tapping these boxes</string>
+
+    <string name="button_red">RED</string>
+    <string name="button_yellow">YELLOW</string>
+    <string name="button_green">GREEN</string>
+</resources>
