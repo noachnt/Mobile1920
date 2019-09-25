@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Doras Exploration</string>
+    <string name="game_title">Doras Exploration</string>
+    <string name="start_button_text">PLAY</string>
+    <string name="how_to_play">How to play</string>
+    <string name="how_to_play_body">
+        This game have multiple ending :D Feel free to explore!
+    </string>
+    <string name="action_button_text">Woooosh..</string>
+    <string name="unlocked_endings">ACHIEVEMENTS</string>
+    <string name="ending_one">FAKE FRIEND</string>
+    <string name="ending_two">ANIMAL ABUSE</string>
+    <string name="normal_ending_one">Boring ..</string>
+    <string name="best_ending">SWIPER KO</string>
+</resources>
