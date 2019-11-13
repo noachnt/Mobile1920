@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MOVIE TRACKER</string>
+    <string name="hello_blank_fragment">Blank Frag</string>
+    <string name="movie_tracker">Movie Tracker</string>
+    <string name="add_a_movie">Add</string>
+    <string name="clear">clear</string>
+
+    <!--  Rating Strings  -->
+    <string name="how_was_hour_sleep">Hows the movie?</string>
+    <string name="zero_very_bad">NAHHHHH</string>
+    <string name="one_poor">So so laaaa</string>
+    <string name="two_soso">Yea kinda good</string>
+    <string name="four_pretty_good">Wow :D</string>
+    <string name="five_excellent">AMAZING MOVIE OMG</string>
+
+    <!-- Output to TextView -->
+    <string name="title"><![CDATA[<h3>MOVIE DATA: </h3>]]></string>
+    <string name="movie_key"><![CDATA[<b>Movie Key:</b>]]></string>
+    <string name="movie_name"><![CDATA[<b>Movie Name:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Rating:</b>]]></string>
+    <string name="rating">Rating</string>
+    <string name="movie_name_no_html">Movie Title</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="update_a_movie">Update</string>
+    <string name="movie_key_no_html">Movie Key</string>
+    <string name="review">Review</string>
+
+</resources>
